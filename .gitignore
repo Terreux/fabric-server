@@ -1,0 +1,64 @@
+# Minecraft runtime data
+
+data/
+world/
+mods/
+config/
+logs/
+
+# Minecraft server files
+
+eula.txt
+server.properties
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+usercache.json
+
+# Server-generated files
+
+*.log
+*.log.gz
+*.lock
+*.tmp
+
+# Backups
+
+backups/
+*.tar
+*.tar.gz
+*.zip
+
+# Environment files
+
+.env
+.env.local
+.env.*.local
+
+# Keep example environment files
+
+!.env.example
+
+# Docker and build artifacts
+
+docker-compose.override.yml
+compose.override.yaml
+
+# IDE and editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Java crash reports
+
+hs_err_pid*
+replay_pid*
